@@ -17,8 +17,8 @@ jobs: # a basic unit of work in a run
       - checkout
       - run:
           # build our application
-          name: uname
-          command: uname -a
+          name: sip
+          command: csrutil status
           
 workflows:
   test_build:
